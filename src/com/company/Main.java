@@ -42,6 +42,7 @@ public class Main {
             System.out.print("¡Introduce un número entre 0 y 9999! ");
             numero = validarEntero(sc);
         }
+        sc.close();
         System.out.println(esCapicua(numero));
     }
 }
